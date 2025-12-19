@@ -1,0 +1,59 @@
+name: Docs or link problem
+description: Report a broken link, stale entry, bad placement, or wording issue in the docs.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for problems in the repository content itself.
+        Use the resource suggestion form for new additions.
+
+  - type: input
+    id: page
+    attributes:
+      label: Affected page
+      description: Which file has the problem?
+      placeholder: README.md or docs/transformers-llms-and-rag.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Problem type
+      options:
+        - Broken link
+        - Stale or inaccurate content
+        - Wrong placement
+        - Wording or formatting issue
+        - Other docs problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the problem clearly. If this is a broken link, include the exact link text or URL.
+      placeholder: The link to ... returns ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix
+      description: Optional, but useful if you know the right replacement or wording.
+      placeholder: Replace ... with ...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmations
+      options:
+        - label: I checked that this issue is not already covered by an open issue or pull request.
+          required: true

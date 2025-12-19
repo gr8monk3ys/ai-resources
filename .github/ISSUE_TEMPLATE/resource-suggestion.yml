@@ -1,0 +1,108 @@
+name: Resource suggestion
+description: Suggest a new book, paper, course, survey, or reference for the curated lists.
+title: "[Resource]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest only resources that fit the curation rules in [CONTRIBUTING.md](https://github.com/gr8monk3ys/ai-resources/blob/main/CONTRIBUTING.md).
+        Prefer primary sources and stable links. Use this form for resources, not for broken links or docs problems.
+
+  - type: input
+    id: resource_title
+    attributes:
+      label: Resource title
+      description: Use the full title that should appear in the repository.
+      placeholder: Attention Is All You Need
+    validations:
+      required: true
+
+  - type: input
+    id: resource_url
+    attributes:
+      label: Resource URL
+      description: Link to the paper, official course page, or stable reference.
+      placeholder: https://arxiv.org/abs/1706.03762
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Type
+      options:
+        - Book
+        - Course
+        - Paper
+        - Survey
+        - Reference
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - Free
+        - Paid
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Multiple levels
+    validations:
+      required: true
+
+  - type: dropdown
+    id: placement
+    attributes:
+      label: Proposed placement
+      description: Put first-choice, broadly useful items in the main README. Put narrower additions in docs.
+      options:
+        - README.md
+        - docs/foundations-and-deep-learning.md
+        - docs/transformers-llms-and-rag.md
+        - docs/interpretability-safety-and-human-factors.md
+        - docs/README.md because a new topic guide is needed
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should this be included?
+      description: Explain the learning value in one short paragraph.
+      placeholder: This is a canonical paper for...
+    validations:
+      required: true
+
+  - type: textarea
+    id: duplicate_check
+    attributes:
+      label: What existing item did you compare it against?
+      description: Mention overlapping resources already in the repository and why this one should be added anyway.
+      placeholder: I checked ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmations
+      options:
+        - label: I checked the existing README and docs for duplicates.
+          required: true
+        - label: This is not just a vendor landing page, launch post, or marketing page.
+          required: true
+        - label: The link points to a stable resource page or primary source.
+          required: true

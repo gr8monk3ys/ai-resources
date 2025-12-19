@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution rules
+    url: https://github.com/gr8monk3ys/ai-resources/blob/main/CONTRIBUTING.md
+    about: Read the curation, placement, and metadata rules before opening an issue or pull request.
+  - name: Security policy
+    url: https://github.com/gr8monk3ys/ai-resources/blob/main/SECURITY.md
+    about: Report security issues through the process described in the security policy, not through public issues.
