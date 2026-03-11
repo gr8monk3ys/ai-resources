@@ -45,17 +45,17 @@ jobs:
 
       - name: Initialize CodeQL
         if: steps.detect.outputs.enabled == 'true'
-        uses: github/codeql-action/init@45580472a5bb82c4681c4ac726cfdb60060c2ee1
+        uses: github/codeql-action/init@0d579ffd059c29b07949a3cce3983f0780820c98
         with:
           languages: ${{ steps.detect.outputs.languages }}
 
       - name: Autobuild
         if: steps.detect.outputs.enabled == 'true'
-        uses: github/codeql-action/autobuild@45580472a5bb82c4681c4ac726cfdb60060c2ee1
+        uses: github/codeql-action/autobuild@0d579ffd059c29b07949a3cce3983f0780820c98
 
       - name: Analyze
         if: steps.detect.outputs.enabled == 'true'
-        uses: github/codeql-action/analyze@45580472a5bb82c4681c4ac726cfdb60060c2ee1
+        uses: github/codeql-action/analyze@0d579ffd059c29b07949a3cce3983f0780820c98
 
       - name: Skip when no supported source files exist
         if: steps.detect.outputs.enabled != 'true'
