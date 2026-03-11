@@ -34,7 +34,7 @@ Labels:
 
 - `[Free] [Intermediate] [Reference]` [Hugging Face Transformers](https://huggingface.co/docs/transformers/index). Practical documentation for loading, fine-tuning, and evaluating transformer models.
 - `[Free] [Intermediate] [Reference]` [vLLM](https://github.com/vllm-project/vllm). Useful serving stack for efficient LLM inference.
-- `[Free] [Intermediate] [Reference]` [llama.cpp](https://github.com/ggerganov/llama.cpp). Good reference point for local inference and constrained deployment environments.
+- `[Free] [Intermediate] [Reference]` [llama.cpp](https://github.com/ggml-org/llama.cpp). Good reference point for local inference and constrained deployment environments.
 
 ## Study Order
 

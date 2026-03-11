@@ -22,15 +22,15 @@ Labels:
 - `[Free] [Intermediate] [Paper]` [Concrete Problems in AI Safety (2016)](https://arxiv.org/abs/1606.06565). Durable framing of reward hacking, safe exploration, and robustness issues.
 - `[Free] [Intermediate] [Paper]` [Constitutional AI: Harmlessness from AI Feedback (2022)](https://arxiv.org/abs/2212.08073). Important for understanding AI-feedback-based alignment methods.
 - `[Free] [Intermediate] [Book]` [Fairness and Machine Learning (2023)](https://fairmlbook.org/). Broad grounding in fairness concepts across technical and social contexts.
-- `[Free] [Intermediate] [Survey]` [Bias and Fairness in Large Language Models: A Survey (2024)](https://direct.mit.edu/coli/article/50/3/1097/121961/Bias-and-Fairness-in-Large-Language-Models-A). Useful literature map for LLM-specific fairness issues.
-- `[Free] [Intermediate] [Reference]` [Stanford HAI AI Index](https://aiindex.stanford.edu/). Good annual reference for governance, adoption, and ecosystem trends.
+- `[Free] [Intermediate] [Survey]` [Bias and Fairness in Large Language Models: A Survey (2024)](https://arxiv.org/abs/2309.00770). Useful literature map for LLM-specific fairness issues.
+- `[Free] [Intermediate] [Reference]` [Stanford HAI AI Index](https://hai.stanford.edu/ai-index). Good annual reference for governance, adoption, and ecosystem trends.
 
 ## Human Factors and System Design
 
 - `[Free] [Intermediate] [Paper]` [Guidelines for Human-AI Interaction (2019)](https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/). Still one of the most useful design papers for AI-assisted systems.
 - `[Free] [Intermediate] [Reference]` [Google PAIR Guidebook](https://pair.withgoogle.com/). Practical human-centered design patterns for AI interfaces.
 - `[Free] [Intermediate] [Paper]` [Human-Centered AI (2020)](https://arxiv.org/abs/2001.02805). Useful framing for high-control, human-supervised AI systems.
-- `[Free] [Intermediate] [Reference]` [Microsoft AI UX Cookbook](https://github.com/microsoft/ai-ux-cookbook). Practical examples for explanation, uncertainty, and interaction patterns.
+- `[Free] [Intermediate] [Reference]` [Microsoft HAX Toolkit](https://www.microsoft.com/en-us/research/project/hax-toolkit/). Practical guidance and examples for explanation, uncertainty, and interaction patterns.
 
 ## Study Order
 
