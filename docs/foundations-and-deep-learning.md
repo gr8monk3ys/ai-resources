@@ -12,7 +12,7 @@ Labels:
 
 - `[Free] [Beginner] [Book]` [Artificial Intelligence: Foundations of Computational Agents (3rd Ed., 2023)](https://artint.info/). Broad AI foundation covering search, reasoning, planning, uncertainty, and agents.
 - `[Free] [Beginner] [Book]` [Introduction to Statistical Learning (2nd Ed., 2021)](https://www.statlearning.com/). Practical machine learning introduction with enough statistical depth to build intuition.
-- `[Free] [Intermediate] [Book]` [Elements of Statistical Learning (2009)](https://hastie.su.domains/ElemStatLearn/). More theoretical follow-on once `ISL` starts to feel too lightweight.
+- `[Paid] [Intermediate] [Book]` [Elements of Statistical Learning (2009)](https://link.springer.com/book/10.1007/978-0-387-84858-7). More theoretical follow-on once `ISL` starts to feel too lightweight.
 - `[Free] [Beginner] [Book]` [The Hundred-Page Machine Learning Book (2019)](http://themlbook.com/wiki/doku.php). Fast orientation pass before committing to longer texts.
 - `[Free] [Beginner] [Reference]` [Machine Learning Yearning (2018)](https://www.mlyearning.org/). Useful for framing error analysis, data strategy, and project decisions.
 - `[Free] [Advanced] [Reference]` [Probabilistic Machine Learning: Advanced Topics (2023)](https://probml.github.io/pml-book/book2.html). Broad modern reference for probabilistic methods.

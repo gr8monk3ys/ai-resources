@@ -77,7 +77,7 @@ This repository is selective by design. It is not a news feed, a leaderboard, or
 ## Symbolic and Hybrid AI
 
 - `[Free] [Intermediate] [Reference]` [Knowledge Representation and Reasoning, Stanford CS227 Notes](https://web.stanford.edu/class/cs227/). Good grounding in logic, ontologies, and formal knowledge representation.
-- `[Free] [Beginner] [Course]` [Learn Prolog Now!](https://lpn.swi-prolog.org/). Practical introduction to symbolic programming and rule-based reasoning.
+- `[Free] [Beginner] [Course]` [Learn Prolog Now!](https://lpn.swi-prolog.org/lpnpage.php?pageid=online). Practical introduction to symbolic programming and rule-based reasoning.
 - `[Free] [Advanced] [Survey]` [Towards Cognitive AI Systems: A Neuro-Symbolic Survey (2024)](https://arxiv.org/abs/2402.05123). Useful overview of integration patterns across neural and symbolic systems.
 - `[Free] [Advanced] [Paper]` [Logical Neural Networks (2020)](https://arxiv.org/abs/2009.02506). A concrete example of differentiable logic with exact Boolean semantics.
 
