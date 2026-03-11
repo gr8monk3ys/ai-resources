@@ -14,6 +14,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check Markdown links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --verbose --max-concurrency 4 --max-retries 2 README.md CONTRIBUTING.md SECURITY.md CODE_OF_CONDUCT.md docs/*.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Node.js
         if: ${{ hashFiles('package.json') != '' }}
         uses: actions/setup-node@v4
