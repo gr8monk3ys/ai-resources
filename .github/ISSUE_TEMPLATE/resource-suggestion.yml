@@ -72,6 +72,10 @@ body:
         - README.md
         - docs/foundations-and-deep-learning.md
         - docs/transformers-llms-and-rag.md
+        - docs/fine-tuning-and-efficiency.md
+        - docs/multimodal-and-generative-ai.md
+        - docs/prompt-engineering-and-agents.md
+        - docs/evaluation-and-deployment.md
         - docs/interpretability-safety-and-human-factors.md
         - docs/README.md because a new topic guide is needed
     validations:

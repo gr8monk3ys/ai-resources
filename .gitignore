@@ -1,0 +1,5 @@
+.tmp-precommit-venv/
+.DS_Store
+*.swp
+.vscode/
+.idea/
