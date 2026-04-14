@@ -1,41 +1,13 @@
 # Security Policy
 
-## Supported Versions
+This is a documentation-only repository containing curated links and annotations. There is no application code, no dependencies, and no deployable software.
 
-We release patches for security vulnerabilities. The following versions are currently being supported with security updates:
+## Reporting a Concern
 
-| Version | Supported          |
-| ------- | ------------------ |
-| latest  | :white_check_mark: |
-| < 1.0   | :x:                |
+If you discover a security issue (for example, a committed credential or a link pointing to a malicious destination), please email security@lscaturchio.xyz or use [GitHub Security Advisories](https://github.com/gr8monk3ys/ai-resources/security/advisories).
 
-## Reporting a Vulnerability
+## Measures in Place
 
-If you discover a security vulnerability within this project, please send an email to security@lscaturchio.xyz. All security vulnerabilities will be promptly addressed.
-
-Please include the following information in your report:
-- Type of issue (e.g., buffer overflow, SQL injection, cross-site scripting, etc.)
-- Full paths of source file(s) related to the manifestation of the issue
-- The location of the affected source code (tag/branch/commit or direct URL)
-- Any special configuration required to reproduce the issue
-- Step-by-step instructions to reproduce the issue
-- Proof-of-concept or exploit code (if possible)
-- Impact of the issue, including how an attacker might exploit it
-
-## Security Measures
-
-This project implements the following security measures:
-- Regular dependency updates via Dependabot
-- Code scanning for vulnerabilities
-- Secret scanning enabled
-- Protected branches with required reviews
-
-## Disclosure Policy
-
-When we receive a security bug report, we will:
-1. Confirm the problem and determine the affected versions
-2. Audit code to find any potential similar problems
-3. Prepare fixes for all releases still under maintenance
-4. Release new security fix versions as soon as possible
-
-For private disclosure, use GitHub Security Advisories: [https://github.com/gr8monk3ys/ai-resources/security/advisories](https://github.com/gr8monk3ys/ai-resources/security/advisories).
+- Secret scanning via [Gitleaks](https://github.com/gitleaks/gitleaks) in CI
+- Pre-commit hooks for private key detection
+- Link validation via [Lychee](https://github.com/lycheeverse/lychee) in CI

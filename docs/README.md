@@ -8,6 +8,10 @@ Use the main README if you want a short, high-trust starting point. Use these gu
 
 - [Foundations and Deep Learning](./foundations-and-deep-learning.md)
 - [Transformers, LLMs, and RAG](./transformers-llms-and-rag.md)
+- [Fine-Tuning and Efficiency](./fine-tuning-and-efficiency.md)
+- [Multimodal and Generative AI](./multimodal-and-generative-ai.md)
+- [Prompt Engineering and Agents](./prompt-engineering-and-agents.md)
+- [Evaluation and Deployment](./evaluation-and-deployment.md)
 - [Interpretability, Safety, and Human Factors](./interpretability-safety-and-human-factors.md)
 
 ## Rules for Topic Guides
