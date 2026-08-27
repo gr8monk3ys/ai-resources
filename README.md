@@ -1,9 +1,5 @@
 # AI Learning Resources
 
-<p align="center">
-  <img src="docs/assets/hero.png" alt="ai-resources preview" width="640">
-</p>
-
 Curated books, papers, courses, and reference material for learning artificial intelligence and machine learning.
 
 This repository is selective by design. It is not a news feed, a leaderboard, or an exhaustive directory. The goal is to keep a short list of resources that remain useful after the hype cycle passes.
@@ -105,7 +101,7 @@ Those items age quickly and lower the trustworthiness of the guide. If the repos
 
 ## Contributing
 
-Pull requests are welcome, but the bar is curation, not volume. See [CONTRIBUTING.md](CONTRIBUTING.md) before adding new material.
+Pull requests are welcome, but the bar is curation, not volume.
 
 In practice, that means:
 
