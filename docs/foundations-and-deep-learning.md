@@ -31,10 +31,12 @@ Labels:
 - `[Free] [Beginner] [Course]` [3Blue1Brown Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr). Visual support for core linear algebra concepts used throughout ML.
 - `[Free] [Intermediate] [Course]` [Deep Learning for Coders with fastai and PyTorch](https://course.fast.ai/). Build-first course that gets you training models quickly.
 - `[Free] [Intermediate] [Course]` [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com/). Compact course with strong coverage of core deep learning topics.
+- `[Free] [Beginner] [Course]` [Neural Networks: Zero to Hero (Andrej Karpathy)](https://karpathy.ai/zero-to-hero.html). Builds backpropagation and a GPT from scratch in code, one concept at a time, with no framework magic hidden.
 
 ## Study Order
 
 1. Start with `Introduction to Statistical Learning` if you are new to ML.
 2. Read `Neural Networks and Deep Learning` or work through `Dive into Deep Learning` once you want neural model intuition.
-3. Use `Machine Learning Yearning` while building projects, not before.
-4. Move to `Elements of Statistical Learning`, `Deep Learning`, or `Probabilistic Machine Learning` only after the basics are stable.
+3. Work through `Neural Networks: Zero to Hero` once you want to implement backpropagation and a transformer yourself rather than only read about them.
+4. Use `Machine Learning Yearning` while building projects, not before.
+5. Move to `Elements of Statistical Learning`, `Deep Learning`, or `Probabilistic Machine Learning` only after the basics are stable.
